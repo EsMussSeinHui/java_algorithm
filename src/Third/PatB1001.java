@@ -19,6 +19,7 @@ public class PatB1001 {
                 n = (3 * n + 1) / 2;
             step++;
         }
+        scan.close();
         System.out.printf("%d\n",step);
     }
 
