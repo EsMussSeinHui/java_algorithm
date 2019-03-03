@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @Author: hui
  * @Date: 2019/3/3 13:52
  */
+//修改文件测试
 public class PatB1001 {
     public static void main(String[] args) {
         int step = 0;
