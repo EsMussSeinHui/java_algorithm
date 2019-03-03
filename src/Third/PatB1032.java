@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 /**
  * @Author: hui
  * @Date: 2019/3/3 15:24
+ * 挖掘机技术哪家强 基础
  */
 public class PatB1032 {
     public static void main(String[] args) throws IOException {
