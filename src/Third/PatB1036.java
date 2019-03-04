@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @Author: hui
  * @Date: 2019/3/3 18:35
  * 跟奥巴马一起编程 图形输出
+ * 图形输出 1、找规律 2、直接判断输出
  */
 public class PatB1036 {
     public static void main(String [] args){

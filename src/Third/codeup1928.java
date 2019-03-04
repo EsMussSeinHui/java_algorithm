@@ -30,7 +30,7 @@ public class codeup1928 {
         Date date2 = sdf.parse(str2);
         long state = date1.getTime();//计算时间到1970-01-01 之差，以long返回秒数：
         long end = date2.getTime();
-        System.out.println(state/ (24 * 60 * 60 * 1000));//题目要求
+        System.out.println(state/ (24 * 60 * 60 * 1000));
         long day = (end - state) / (24 * 60 * 60 * 1000);
         System.out.println(day + 1);//题目要求
     }
