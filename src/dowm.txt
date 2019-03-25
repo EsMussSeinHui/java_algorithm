@@ -1,0 +1,27 @@
+1、质因子 +素数 问题
+   （1）、 求素数表，再去循环除
+   （2）、 直接带入循环，每次都是从2开始除，相当于素数也都是从小到大..有点难以表述
+   public static void getResult(long ulDataInput){
+           int i=2;
+           long n=ulDataInput;
+           long xx=(long)Math.sqrt(n);
+           String s="";
+           while(n!=1)
+           {
+              while(n%i==0)
+              {
+                  n/=i;
+                  System.out.print(i+" ");
+              }
+               i++;
+           }
+       }
+2、数组 list set 等的转化
+   set / list  --> 数组
+   collection 中有toArray();  比如  Object []a =a.toArray();
+
+   数组--> list set
+   List<E> a= Arrays.asList(b)
+   Set<E> c=new HashSet(Arrays.asList(b))<>;
+
+3、

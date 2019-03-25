@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 public class PatB1009 {
     public static void main(String [] args) throws IOException {
         BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+        String a=reader.readLine();
         String [] ans=reader.readLine().split(" ");
         for (int i=ans.length-1;i>0;i--){
             System.out.print(ans[i]);
